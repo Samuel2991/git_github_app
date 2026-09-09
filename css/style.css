@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0d1117;
+    color: #ffffff;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    height: 70px;
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #30363d;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #58a6ff;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar nav a {
+    color: #c9d1d9;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navbar nav a:hover {
+    color: #58a6ff;
+}
+
+
+/* HERO */
+
+.hero {
+    min-height: calc(100vh - 120px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 60px 8%;
+}
+
+.hero-content {
+    max-width: 850px;
+    text-align: center;
+}
+
+.tagline {
+    color: #58a6ff;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+h1 span {
+    color: #58a6ff;
+}
+
+.description {
+    max-width: 650px;
+    margin: auto;
+
+    color: #8b949e;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+/* BUTTONS */
+
+.buttons {
+    margin-top: 35px;
+
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    padding: 14px 25px;
+    border-radius: 7px;
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.primary {
+    background: #238636;
+    color: white;
+}
+
+.primary:hover {
+    background: #2ea043;
+}
+
+.secondary {
+    border: 1px solid #30363d;
+    color: #ffffff;
+}
+
+.secondary:hover {
+    background: #21262d;
+}
+
+
+/* FOOTER */
+
+footer {
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-top: 1px solid #30363d;
+
+    color: #8b949e;
+    font-size: 13px;
+}

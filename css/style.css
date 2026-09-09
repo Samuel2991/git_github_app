@@ -321,3 +321,60 @@ footer {
     }
 
 }
+
+/* LESSON PAGE */
+
+.lesson-page {
+    padding: 80px 8%;
+}
+
+.lesson-header {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.lesson-header h1 {
+    margin-bottom: 20px;
+}
+
+.lesson-header p {
+    color: #8b949e;
+    line-height: 1.7;
+}
+
+.lesson-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.lesson-content h2 {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.lesson-content p {
+    color: #8b949e;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.command-box {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 25px 0;
+}
+
+.command-box code {
+    display: block;
+    color: #58a6ff;
+    font-family: Consolas, monospace;
+    margin: 10px 0;
+}
+
+.lesson-navigation {
+    margin-top: 40px;
+}

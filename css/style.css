@@ -378,3 +378,185 @@ footer {
 .lesson-navigation {
     margin-top: 40px;
 }
+
+
+/* =========================================
+   GIT COMMANDS LESSON PAGE
+========================================= */
+
+.lesson-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 70px 20px;
+}
+
+
+/* Lesson Header */
+
+.lesson-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-label {
+    color: #58a6ff;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.lesson-header h1 {
+    font-size: 2.8rem;
+    color: #ffffff;
+    margin-bottom: 18px;
+}
+
+.lesson-header > p:last-child {
+    color: #8b949e;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+
+/* Lesson Content */
+
+.lesson-content {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 14px;
+    padding: 40px;
+}
+
+.lesson-content h2 {
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.lesson-content h2:first-child {
+    margin-top: 0;
+}
+
+.lesson-content p {
+    color: #8b949e;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+
+/* Command Box */
+
+.command-box {
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-left: 4px solid #58a6ff;
+    border-radius: 8px;
+    padding: 18px 20px;
+    margin-bottom: 15px;
+    overflow-x: auto;
+}
+
+.command-box code {
+    color: #79c0ff;
+    font-family: "Courier New", monospace;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+
+/* Navigation */
+
+.lesson-navigation {
+    margin-top: 45px;
+    padding-top: 30px;
+    border-top: 1px solid #30363d;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn.secondary {
+    color: #ffffff;
+    background: #21262d;
+    border: 1px solid #30363d;
+}
+
+.btn.secondary:hover {
+    background: #30363d;
+    border-color: #8b949e;
+    transform: translateY(-2px);
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    border-top: 1px solid #30363d;
+    color: #8b949e;
+    margin-top: 30px;
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 768px) {
+
+    .lesson-page {
+        padding: 50px 15px;
+    }
+
+    .lesson-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .lesson-content {
+        padding: 25px 20px;
+    }
+
+    .lesson-content h2 {
+        font-size: 1.25rem;
+    }
+
+    .command-box {
+        padding: 15px;
+    }
+
+    .command-box code {
+        font-size: 0.9rem;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .lesson-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .lesson-header > p:last-child {
+        font-size: 0.95rem;
+    }
+
+    .lesson-content {
+        padding: 20px 15px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+}
